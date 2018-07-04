@@ -2,7 +2,7 @@ service: ${self:custom.project.name}
 
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejs8.10
   profile: ${self:custom.project.provider.profile}
   stage: ${self:custom.project.provider.stage}
   region: ${self:custom.project.provider.region}

@@ -17,11 +17,11 @@ sudo yum install -y yarn
 To create the Sharp tarball:
 
 ```bash
-export SHARP_VERSION=0.17.3
+export SHARP_VERSION=0.20.5
 mkdir sharp-$SHARP_VERSION
 cd sharp-$SHARP_VERSION
 yarn add sharp@$SHARP_VERSION
-tar --no-xattrs --hard-dereference -cznshf sharp-$SHARP_VERSION-aws-lambda-linux-x64-node-6.10.1.tar.gz node_modules
+tar --no-xattrs --hard-dereference -cznshf sharp-$SHARP_VERSION-aws-lambda-linux-x64-node-8.10.tar.gz node_modules
 ```
 
 Or, use the [`build.sh`](https://github.com/adieuadieu/serverless-sharp-image/blob/master/lambda-sharp/build.sh) script.

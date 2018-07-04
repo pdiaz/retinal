@@ -4,7 +4,7 @@ const decompress = require('decompress')
 const SHARP_VERSION = '0.18.2'
 const sharpTarball = path.join(
   __dirname,
-  `lambda-sharp/tarballs/sharp-${SHARP_VERSION}-aws-lambda-linux-x64-node-6.10.1.tar.gz`
+  `lambda-sharp/tarballs/sharp-${SHARP_VERSION}-aws-lambda-linux-x64-node-8.10.1.tar.gz`
 )
 const webpackDir = path.join(__dirname, '.webpack/')
 
